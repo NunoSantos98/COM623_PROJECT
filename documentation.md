@@ -56,26 +56,89 @@ Firebase gives multiple ways to the developers to allow users to log in, but in 
 
 ## 	Program Development
 
-<img src="./"
 The program was developed with react native, and it is possible to observe the structure in figure 1.
+
+<p align="center">
+    <img src="./Assets/flowchart.png">
+</p>
+<p align="center">
+ (Figure 1)
+ </p>
 
 When the student is on the landing page, it will have a short description of the purpose of the application and a register and a login button (figure 2).
 
-If the user clicks on the register, it will send to a page asking for an email and a password. After checking, it will automatically send to the main page, and if you click on the login button, it will ask for an email and a password and send it to the main page (figure 3, figure 4).
+<p align="center">
+    <img src="./Assets/LandingPage.png">
+</p>
+<p align="center">
+ (Figure 2)
+ </p>
 
+If the user clicks on the register, it will send to a page asking for an email and a password. After checking, it will automatically send to the main page, and if you click on the login button, it will ask for an email and a password and send it to the main page (figure 3, figure 4).
+<p align="center">
+    <img src="./Assets/login.png">
+</p>
+<p align="center">
+ (Figure 3)
+ </p>
+ <p align="center">
+    <img src="./Assets/register.png">
+</p>
+<p align="center">
+ (Figure 4)
+ </p>
 When the user enters the Main Page, it will show two options, Deadlines and Discussion. They can be accessed on the hamburger menu located on the top left. On the hamburger menu, an option to log out (figure 5).
 
+<p align="center">
+    <img src="./Assets/MainMenu.png">
+</p>
+<p align="center">
+ (Figure 5)
+ </p>
+ 
 On the Deadlines Page, it will display the deadlines created by the user containing the unit name in first, the date on the middle, and the lecturer's name after. The user can create a deadline by clicking "create deadline" (figure 6).
+
+<p align="center">
+    <img src="./Assets/deadline.png">
+</p>
+<p align="center">
+ (Figure 6)
+ </p>
 
 On the create deadlines page, the program will ask for details such as assessment name, the unit name, the hand in date, and the lecturer name (figure 7). 
 
-Discussion Page allows the user to chat with his lecturers about a question on current assessments. The boxes are organized in a way that is easier for the user to check quick the conversation that he wants to enter. The information shown on the boxes highlights the lecturer name. It shows the date where the chat was created, under the lecturer name shows the unit name and under the unit name is the discussion topic (figure 8). 
+<p align="center">
+    <img src="./Assets/createdealine.png">
+</p>
+<p align="center">
+ (Figure 7)
+ </p>
+ 
+Discussion Page allows the user to chat with his lecturers about a question on current assessments. The boxes are organized in a way that is easier for the user to check quick the conversation that he wants to enter. The information shown on the boxes highlights the lecturer name. It shows the date where the chat was created, under the lecturer name shows the unit name and under the unit name is the discussion topic. 
 
-The boxes were designed this way to allow the lecturers to have a quick perception after seeing the box. It allows for an immediate answer/response system (figure 9).
+The boxes were designed this way to allow the lecturers to have a quick perception after seeing the box. It allows for an immediate answer/response system (figure 8).
 
-If the student has a new assessment and a question, it can create a new chat by clicking on the "create a new discussion" option (figure 10).
 
-On the create discussion page, the program will ask for important information such as the question topic, the unit name, and lecturer name to look on the database for that lecturer and send him a notification about the new chat creation and the date. Still, its field can't be edited (figure 11).
+<p align="center">
+    <img src="./Assets/discussionpage.png">
+</p>
+<p align="center">
+ (Figure 8)
+ </p>
+ 
+
+If the student has a new assessment and a question, it can create a new chat by clicking on the "create a new discussion" option.
+
+On the create discussion page, the program will ask for important information such as the question topic, the unit name, and lecturer name to look on the database for that lecturer and send him a notification about the new chat creation and the date. Still, its field can't be edited (figure 9).
+
+<p align="center">
+    <img src="./Assets/creatediscussion.png">
+</p>
+<p align="center">
+ (Figure 9)
+ </p>
+ 
+
 
 ## Conclusion
 
