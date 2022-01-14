@@ -24,7 +24,7 @@ import Login from "./Views/Login";
 import Register from "./Views/Register";
 import Header from "./Views/Content";
 import Content from "./Views/Content";
-import MainMenu from "./Views/MainPage_Content";
+import MainPage from "./Views/MainPage";
 import DeadLine from "./Views/Deadlines"
 import EditDeadLine from './Views/EditDeadline'
 import CreateDeadline from './Views/createdeadline'
@@ -69,7 +69,7 @@ function App() {
 
   useEffect(() => {
     if (isAuthenticated === true) {
-      history.push('/MainMenu');
+      history.push('/MainPage');
     }
     return;
   }, [isAuthenticated]);
@@ -81,7 +81,7 @@ function App() {
     <ThemeProvider theme={theme}>
 
 
-        <BrowserRouter>
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
           <Switch>
           <Route exact path="/">
           <Header/>          
@@ -93,8 +93,8 @@ function App() {
               <Register/>
             </Route>
 
-            <Route exact path="/MainMenu">
-              <MainMenu/>
+            <Route exact path="/MainPage">
+              <MainPage/>
             </Route>
 
             <Route exact path="/Deadlines">
@@ -121,7 +121,7 @@ function App() {
               <DiscussionChat/>
             </Route>
             
-          </Switch>
+            </Switch>
         </BrowserRouter>
     </ThemeProvider>
   );

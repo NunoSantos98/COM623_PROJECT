@@ -71,12 +71,6 @@ function MainPage_Content(props) {
     <ThemeProvider theme={theme}>
 <GlobalStyles></GlobalStyles>
 
-<div ref={node} style={{textAlign:'Center'}}>
-        <FocusLock disabled={!open} >
-          <Burger open={open} setOpen={setOpen} aria-controls={menuId} />
-          <Menu open={open} setOpen={setOpen} id={menuId} />
-        </FocusLock>
-      </div>
 
 <div style={CenterText}>
         <h3>Welcome back</h3>

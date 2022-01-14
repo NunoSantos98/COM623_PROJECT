@@ -20,11 +20,11 @@ import FocusLock from "react-focus-lock";
 import { GlobalStyles } from "../global";
 import Login from "../App";
 import MainPage_content from "../Views/MainPage_Content"
-import useAuth from "./services/firebase/useAuth"
+import useAuth from "../services/firebase/useAuth"
 
 
 
-function MainMenu() {
+function MainPage() {
     
   const [open, setOpen] = useState(false);
   const node = useRef();
@@ -74,4 +74,4 @@ function MainMenu() {
 }
 
 
-export default MainMenu;
+export default MainPage;
