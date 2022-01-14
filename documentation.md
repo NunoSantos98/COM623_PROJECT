@@ -2,9 +2,9 @@
 
  Q14796414 
 
- Hosted at: 
+ Hosted at: https://nunosantos98.github.io/COM623_PROJECT/
 
- Repository at:
+ Repository at: https://github.com/NunoSantos98/COM623_PROJECT
   
 
 
